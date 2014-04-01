@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ICViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QIj-hu-xKq"/>
+                        <viewControllerLayoutGuide type="bottom" id="vND-mi-3eu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHU-lV-2LG">
+                                <rect key="frame" x="236" y="20" width="64" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="VrH-40-3ru"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Light" backgroundImage="btn_back.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="torchClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cUe-cV-bAb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tje-UK-d0T">
+                                <rect key="frame" x="20" y="20" width="70" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="B3A-Y3-uN7"/>
+                                    <constraint firstAttribute="height" constant="30" id="Tiq-e0-TAE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="ON/OFF" backgroundImage="btn_back.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="streamClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Jhq-Tk-rW1"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SmartIDlab_cmjn.png" translatesAutoresizingMaskIntoConstraints="NO" id="eBy-1j-Wdk">
+                                <rect key="frame" x="192" y="521" width="116" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="116" id="WF4-GL-Qb7"/>
+                                    <constraint firstAttribute="height" constant="35" id="v50-Lh-mbo"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tje-UK-d0T" firstAttribute="bottom" secondItem="mHU-lV-2LG" secondAttribute="bottom" id="0EI-r5-hW2"/>
+                            <constraint firstItem="vND-mi-3eu" firstAttribute="top" secondItem="eBy-1j-Wdk" secondAttribute="bottom" constant="12" id="Lxe-9G-XC2"/>
+                            <constraint firstItem="tje-UK-d0T" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" symbolic="YES" id="Qpb-zJ-xcG"/>
+                            <constraint firstAttribute="trailing" secondItem="eBy-1j-Wdk" secondAttribute="trailing" constant="12" id="W28-dW-3j4"/>
+                            <constraint firstAttribute="trailing" secondItem="mHU-lV-2LG" secondAttribute="trailing" constant="20" id="Xvn-7t-aHt"/>
+                            <constraint firstItem="tje-UK-d0T" firstAttribute="top" secondItem="QIj-hu-xKq" secondAttribute="bottom" id="edg-KF-LTw"/>
+                            <constraint firstItem="tje-UK-d0T" firstAttribute="top" secondItem="mHU-lV-2LG" secondAttribute="top" id="z35-m5-44F"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SmartIDlab_cmjn.png" width="989" height="300"/>
+        <image name="btn_back.png" width="133" height="41"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

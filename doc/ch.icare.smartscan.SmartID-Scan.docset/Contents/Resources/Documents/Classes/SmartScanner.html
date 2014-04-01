@@ -1,0 +1,1155 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>SmartScanner Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">SmartID Scan </a></h1>
+				<a id="developerHome" href="../index.html">SmartID Lab</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">SmartScanner Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/closeCameraStream">&nbsp;&nbsp;&nbsp;&nbsp;- closeCameraStream</option>
+	
+	<option value="//api/name/continuousFocusAtPoint:">&nbsp;&nbsp;&nbsp;&nbsp;- continuousFocusAtPoint:</option>
+	
+	<option value="//api/name/enableDecoding:">&nbsp;&nbsp;&nbsp;&nbsp;- enableDecoding:</option>
+	
+	<option value="//api/name/getCodeTypeString:">&nbsp;&nbsp;&nbsp;&nbsp;- getCodeTypeString:</option>
+	
+	<option value="//api/name/init">&nbsp;&nbsp;&nbsp;&nbsp;- init</option>
+	
+	<option value="//api/name/initWithDecodingType:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithDecodingType:</option>
+	
+	<option value="//api/name/previewViewWithViewSize:">&nbsp;&nbsp;&nbsp;&nbsp;- previewViewWithViewSize:</option>
+	
+	<option value="//api/name/regionOfInterest">&nbsp;&nbsp;&nbsp;&nbsp;- regionOfInterest</option>
+	
+	<option value="//api/name/setDecodingOrientation:">&nbsp;&nbsp;&nbsp;&nbsp;- setDecodingOrientation:</option>
+	
+	<option value="//api/name/setDecodingType:">&nbsp;&nbsp;&nbsp;&nbsp;- setDecodingType:</option>
+	
+	<option value="//api/name/setFlashEnabled:">&nbsp;&nbsp;&nbsp;&nbsp;- setFlashEnabled:</option>
+	
+	<option value="//api/name/setRegionOfInterest:">&nbsp;&nbsp;&nbsp;&nbsp;- setRegionOfInterest:</option>
+	
+	<option value="//api/name/version">&nbsp;&nbsp;&nbsp;&nbsp;- version</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Initialization">Initialization</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Create the video stream view">Create the video stream view</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Destruction">Destruction</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Tool">Tool</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Decoder configuration">Decoder configuration</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Properties">Properties</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/closeCameraStream">closeCameraStream</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/continuousFocusAtPoint:">continuousFocusAtPoint:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/enableDecoding:">enableDecoding:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getCodeTypeString:">getCodeTypeString:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/init">init</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithDecodingType:">initWithDecodingType:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/previewViewWithViewSize:">previewViewWithViewSize:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/regionOfInterest">regionOfInterest</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setDecodingOrientation:">setDecodingOrientation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setDecodingType:">setDecodingType:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setFlashEnabled:">setFlashEnabled:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setRegionOfInterest:">setRegionOfInterest:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/version">version</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="SmartScanner Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">SmartScanner Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">SmartScanner.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>This class contains the main access to the smartscanner library.</p>
+
+<p>Provides all the functions needed to manipulate the camera stream, and the decoding functions/options</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Initialization" name="task_Initialization"></a>
+						<h3 class="subsubtitle task-title">Initialization</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+		<span class="tooltip"><p>Basic constructor</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithDecodingType:">&ndash;&nbsp;initWithDecodingType:</a></code>
+		<span class="tooltip"><p>Init the smartscanner and set the decoding type you want in one line.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Create the video stream view" name="task_Create the video stream view"></a>
+						<h3 class="subsubtitle task-title">Create the video stream view</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/previewViewWithViewSize:">&ndash;&nbsp;previewViewWithViewSize:</a></code>
+		<span class="tooltip"><p>Retrieve a view containing the camera stream of the given size</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Destruction" name="task_Destruction"></a>
+						<h3 class="subsubtitle task-title">Destruction</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/closeCameraStream">&ndash;&nbsp;closeCameraStream</a></code>
+		<span class="tooltip"><p>Close the smartscanner object and video stream relative objects</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Tool" name="task_Tool"></a>
+						<h3 class="subsubtitle task-title">Tool</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setFlashEnabled:">&ndash;&nbsp;setFlashEnabled:</a></code>
+		<span class="tooltip"><p>Use the flash light as a torche</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getCodeTypeString:">&ndash;&nbsp;getCodeTypeString:</a></code>
+		<span class="tooltip"><p>Retrieve a string corresponding to the code type</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Decoder configuration" name="task_Decoder configuration"></a>
+						<h3 class="subsubtitle task-title">Decoder configuration</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setRegionOfInterest:">&ndash;&nbsp;setRegionOfInterest:</a></code>
+		<span class="tooltip"><p>Set the zone of interest to scan</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setDecodingOrientation:">&ndash;&nbsp;setDecodingOrientation:</a></code>
+		<span class="tooltip"><p>Set the decoding orientation</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/enableDecoding:">&ndash;&nbsp;enableDecoding:</a></code>
+		<span class="tooltip"><p>Enable decoding</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setDecodingType:">&ndash;&nbsp;setDecodingType:</a></code>
+		<span class="tooltip"><p>Allows to select the type of code you want to scan</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/continuousFocusAtPoint:">&ndash;&nbsp;continuousFocusAtPoint:</a></code>
+		<span class="tooltip"><p>Set the focus point of the camera</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Properties" name="task_Properties"></a>
+						<h3 class="subsubtitle task-title">Properties</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/version">&ndash;&nbsp;version</a></code>
+		<span class="tooltip"><p>Retrieve the smartscanner and decoding type versions</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/regionOfInterest">&ndash;&nbsp;regionOfInterest</a></code>
+		<span class="tooltip"><p>Zone of interest (zone where the smartscanner will try to find a code) relative to the previewView</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/closeCameraStream" title="closeCameraStream"></a>
+	<h3 class="subsubtitle method-title">closeCameraStream</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Close the smartscanner object and video stream relative objects</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)closeCameraStream</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Close the smartscanner object and video stream relative objects</p>
+
+<p>Should be used when you don&rsquo;t need to use the smartscanner anymore</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SmartScanner.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/continuousFocusAtPoint:" title="continuousFocusAtPoint:"></a>
+	<h3 class="subsubtitle method-title">continuousFocusAtPoint:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Set the focus point of the camera</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)continuousFocusAtPoint:(CGPoint)<em>aPoint</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aPoint</em></dt>
+			<dd><p>CGpoint (Can be the direct output of the default iOS touch events) representing where in the stream the camera should do the autofocus</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Set the focus point of the camera</p>
+
+<p>Allows to manually set the focus zone of the camera</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SmartScanner.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/enableDecoding:" title="enableDecoding:"></a>
+	<h3 class="subsubtitle method-title">enableDecoding:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Enable decoding</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)enableDecoding:(bool)<em>aEnable</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aEnable</em></dt>
+			<dd><p>bool representing the desirated decoding state</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Enable decoding</p>
+
+<p>allows to enable/disable the decoding without closing the video stream</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SmartScanner.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getCodeTypeString:" title="getCodeTypeString:"></a>
+	<h3 class="subsubtitle method-title">getCodeTypeString:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Retrieve a string corresponding to the code type</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)getCodeTypeString:(SmartDecodingTypes)<em>aCodeType</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aCodeType</em></dt>
+			<dd><p>type of code</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>NSString</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Retrieve a string corresponding to the code type</p>
+
+<p>Retrieve a string description of a SmartDecodingType. It can be usefull in the case where you are decoding multiple types and want more details about the which type has actually been decoded.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SmartScanner.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="subsubtitle method-title">init</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Basic constructor</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>SmartScanner instance</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Basic constructor</p>
+
+<p>allows to init the SmartScanner. When the scanner is initialized with this function you&rsquo;ll need to use the <a href="#//api/name/setDecodingType:">setDecodingType:</a> function.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SmartScanner.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithDecodingType:" title="initWithDecodingType:"></a>
+	<h3 class="subsubtitle method-title">initWithDecodingType:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Init the smartscanner and set the decoding type you want in one line.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithDecodingType:(SmartDecodingTypes)<em>aDecodeType</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aDecodeType</em></dt>
+			<dd><p>SmartDecodingTypes you want to be decoded</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>SmartScanner instance</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Init the smartscanner and set the decoding type you want in one line.</p>
+
+<p>allows to <a href="#//api/name/init">init</a> the SmartScanner.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SmartScanner.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/previewViewWithViewSize:" title="previewViewWithViewSize:"></a>
+	<h3 class="subsubtitle method-title">previewViewWithViewSize:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Retrieve a view containing the camera stream of the given size</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (UIView *)previewViewWithViewSize:(CGRect)<em>aRect</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aRect</em></dt>
+			<dd><p>Desirated size for the camera view.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>UIView that can be manipulated and added to any other view</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Retrieve a view containing the camera stream of the given size</p>
+
+<p>Allows to retrieve an UIView containing the camera stream, and starts the decoding.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SmartScanner.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/regionOfInterest" title="regionOfInterest"></a>
+	<h3 class="subsubtitle method-title">regionOfInterest</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Zone of interest (zone where the smartscanner will try to find a code) relative to the previewView</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (CGRect)regionOfInterest</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Zone of interest (zone where the smartscanner will try to find a code) relative to the previewView</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SmartScanner.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setDecodingOrientation:" title="setDecodingOrientation:"></a>
+	<h3 class="subsubtitle method-title">setDecodingOrientation:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Set the decoding orientation</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setDecodingOrientation:(UIDeviceOrientation)<em>aOrientation</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aOrientation</em></dt>
+			<dd><p>UIDeviceOrientation you want to use for ocr decoding</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Set the decoding orientation</p>
+
+<p>When using any type of OCR decoding, the default orientation will be landscape right (with home button on the right) If you want to use any other orientation while decoding, you should specify the orientation you want with this function</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SmartScanner.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setDecodingType:" title="setDecodingType:"></a>
+	<h3 class="subsubtitle method-title">setDecodingType:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Allows to select the type of code you want to scan</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (CGRect)setDecodingType:(SmartDecodingTypes)<em>aDecodeType</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aDecodeType</em></dt>
+			<dd><p>Type of code</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Allows to select the type of code you want to scan</p>
+
+<p>Refers to CodeTypes.h</p>
+
+<pre><code>CODE_PLATES
+CODE_AZTEC_CODES
+CODE_OCR_B_ICAO_9303_IDS
+CODE_OCR_B_ICAO_9303_PASSPORTS
+CODE_OCR_B_FRENCH_IDS
+CODE_OCR_B_BVR
+CODE_OCR_B_DRV_LICENSES
+CODE_OCR_B_ALL
+CODE_CFF_CARDS
+CODE_INSURANCE_CARDS
+CODE_DOT_1_CODES
+CODE_SKI_CODES,
+CODE_1D2D_DATA_MATRICES,
+CODE_1D2D_BARCODES_EAN_13
+CODE_1D2D_BARCODES_EAN_8
+CODE_1D2D_BARCODES_UPC_E
+CODE_1D2D_BARCODES_CODE_128
+CODE_1D2D_BARCODES_CODE_39
+CODE_1D2D_DATABARS
+CODE_1D2D_BARCODES_ALL
+CODE_1D2D_ALL
+</code></pre>
+
+<p>multiple codes can be activated at the same time using &lsquo;|&rsquo; like</p>
+
+<pre><code>[mySmartScanner setDecodingType: CODE_PLATES | CODE_1D2D_ALL]
+</code></pre>
+
+<p>But any type you will add that you don&rsquo;t need will add an additional computation time in the decoding procedure</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SmartScanner.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setFlashEnabled:" title="setFlashEnabled:"></a>
+	<h3 class="subsubtitle method-title">setFlashEnabled:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Use the flash light as a torche</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setFlashEnabled:(bool)<em>aValue</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aValue</em></dt>
+			<dd><p>the dedirated state of the light</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Use the flash light as a torche</p>
+
+<p>Allows to turn ON/OFF the flash light to help decoding in case of bad lighting</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SmartScanner.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setRegionOfInterest:" title="setRegionOfInterest:"></a>
+	<h3 class="subsubtitle method-title">setRegionOfInterest:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Set the zone of interest to scan</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (CGRect)setRegionOfInterest:(CGRect)<em>aTargetRec</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aTargetRect</em></dt>
+			<dd><p>A rectangle that must be within the video stream</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>the zone of interest relative to the previewView</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Set the zone of interest to scan</p>
+
+<p>Allows to set which zone in the video stream (640 X 480) will be scanned.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SmartScanner.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/version" title="version"></a>
+	<h3 class="subsubtitle method-title">version</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Retrieve the smartscanner and decoding type versions</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)version</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Retrieve the smartscanner and decoding type versions</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SmartScanner.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 SmartID Lab. All rights reserved. (Last updated: 2014-04-01)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

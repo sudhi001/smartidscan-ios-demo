@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		177CE2471833C4BE00C9DA58 /* DummyCPPEnable.mm in Sources */ = {isa = PBXBuildFile; fileRef = 177CE2461833C4BE00C9DA58 /* DummyCPPEnable.mm */; };
+		17861FE0185897B400BD57A8 /* btn_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 17861FDF185897B400BD57A8 /* btn_back.png */; };
+		17861FFF1858BCA400BD57A8 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C3EE2B1857423200D20052 /* opencv2.framework */; };
+		1788F02D186195F8003CB023 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1788F02C186195F8003CB023 /* AVFoundation.framework */; };
+		1788F03018619632003CB023 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1788F02E18619602003CB023 /* CoreVideo.framework */; };
+		1788F03218619649003CB023 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1788F03118619649003CB023 /* CoreMedia.framework */; };
+		178AD19B1890202B00EDBE7C /* SmartIDlab_cmjn.png in Resources */ = {isa = PBXBuildFile; fileRef = 178AD19A1890202B00EDBE7C /* SmartIDlab_cmjn.png */; };
+		178AD1A918913CB100EDBE7C /* libSmartIDScan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 178AD1A818913CB100EDBE7C /* libSmartIDScan.a */; };
+		17C3EE311857424500D20052 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C3EE301857424500D20052 /* libstdc++.dylib */; };
+		17C3EE351857427900D20052 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C3EE341857427900D20052 /* libc++.dylib */; };
+		17F1B93D182A85DE00618918 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F1B93C182A85DE00618918 /* Foundation.framework */; };
+		17F1B93F182A85DE00618918 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F1B93E182A85DE00618918 /* CoreGraphics.framework */; };
+		17F1B941182A85DE00618918 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F1B940182A85DE00618918 /* UIKit.framework */; };
+		17F1B947182A85DE00618918 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17F1B945182A85DE00618918 /* InfoPlist.strings */; };
+		17F1B949182A85DE00618918 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F1B948182A85DE00618918 /* main.m */; };
+		17F1B94D182A85DE00618918 /* ICAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F1B94C182A85DE00618918 /* ICAppDelegate.m */; };
+		17F1B950182A85DE00618918 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F1B94E182A85DE00618918 /* Main_iPhone.storyboard */; };
+		17F1B956182A85DE00618918 /* ICViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F1B955182A85DE00618918 /* ICViewController.m */; };
+		17F1B958182A85DE00618918 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F1B957182A85DE00618918 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		177CE2451833C4BE00C9DA58 /* DummyCPPEnable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DummyCPPEnable.h; sourceTree = "<group>"; };
+		177CE2461833C4BE00C9DA58 /* DummyCPPEnable.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DummyCPPEnable.mm; sourceTree = "<group>"; };
+		17861FDF185897B400BD57A8 /* btn_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_back.png; sourceTree = "<group>"; };
+		1788F02C186195F8003CB023 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1788F02E18619602003CB023 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		1788F03118619649003CB023 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		178AD19A1890202B00EDBE7C /* SmartIDlab_cmjn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmartIDlab_cmjn.png; sourceTree = "<group>"; };
+		178AD1A618913C6600EDBE7C /* SmartIDScanTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartIDScanTypes.h; sourceTree = "<group>"; };
+		178AD1A818913CB100EDBE7C /* libSmartIDScan.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSmartIDScan.a; sourceTree = "<group>"; };
+		178AD1AA18913D8300EDBE7C /* SmartScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartScanner.h; sourceTree = "<group>"; };
+		17ABEA46184F926D004B2412 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		17C3EE2B1857423200D20052 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		17C3EE301857424500D20052 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		17C3EE321857424B00D20052 /* libc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libc.dylib; path = usr/lib/libc.dylib; sourceTree = SDKROOT; };
+		17C3EE341857427900D20052 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		17F1B939182A85DE00618918 /* SmartIDScanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartIDScanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17F1B93C182A85DE00618918 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17F1B93E182A85DE00618918 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17F1B940182A85DE00618918 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17F1B944182A85DE00618918 /* SmartIDScanDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartIDScanDemo-Info.plist"; sourceTree = "<group>"; };
+		17F1B946182A85DE00618918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17F1B948182A85DE00618918 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17F1B94A182A85DE00618918 /* SmartIDScanDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartIDScanDemo-Prefix.pch"; sourceTree = "<group>"; };
+		17F1B94B182A85DE00618918 /* ICAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICAppDelegate.h; sourceTree = "<group>"; };
+		17F1B94C182A85DE00618918 /* ICAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICAppDelegate.m; sourceTree = "<group>"; };
+		17F1B94F182A85DE00618918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		17F1B954182A85DE00618918 /* ICViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICViewController.h; sourceTree = "<group>"; };
+		17F1B955182A85DE00618918 /* ICViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICViewController.m; sourceTree = "<group>"; };
+		17F1B957182A85DE00618918 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17F1B95E182A85DE00618918 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17F1B936182A85DE00618918 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1788F03218619649003CB023 /* CoreMedia.framework in Frameworks */,
+				1788F03018619632003CB023 /* CoreVideo.framework in Frameworks */,
+				1788F02D186195F8003CB023 /* AVFoundation.framework in Frameworks */,
+				17861FFF1858BCA400BD57A8 /* opencv2.framework in Frameworks */,
+				17C3EE351857427900D20052 /* libc++.dylib in Frameworks */,
+				17C3EE311857424500D20052 /* libstdc++.dylib in Frameworks */,
+				17F1B93F182A85DE00618918 /* CoreGraphics.framework in Frameworks */,
+				17F1B941182A85DE00618918 /* UIKit.framework in Frameworks */,
+				178AD1A918913CB100EDBE7C /* libSmartIDScan.a in Frameworks */,
+				17F1B93D182A85DE00618918 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		178AD19F1890203100EDBE7C /* img */ = {
+			isa = PBXGroup;
+			children = (
+				178AD19A1890202B00EDBE7C /* SmartIDlab_cmjn.png */,
+				17861FDF185897B400BD57A8 /* btn_back.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		178AD1A418913C2500EDBE7C /* SmartScanner files */ = {
+			isa = PBXGroup;
+			children = (
+				178AD1AA18913D8300EDBE7C /* SmartScanner.h */,
+				178AD1A818913CB100EDBE7C /* libSmartIDScan.a */,
+				178AD1A618913C6600EDBE7C /* SmartIDScanTypes.h */,
+				177CE2451833C4BE00C9DA58 /* DummyCPPEnable.h */,
+				177CE2461833C4BE00C9DA58 /* DummyCPPEnable.mm */,
+			);
+			name = "SmartScanner files";
+			sourceTree = "<group>";
+		};
+		178AD1AB18916C5900EDBE7C /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		17F1B930182A85DE00618918 = {
+			isa = PBXGroup;
+			children = (
+				17F1B942182A85DE00618918 /* SmartIDScanDemo */,
+				17F1B93B182A85DE00618918 /* Frameworks */,
+				17F1B93A182A85DE00618918 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17F1B93A182A85DE00618918 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17F1B939182A85DE00618918 /* SmartIDScanDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17F1B93B182A85DE00618918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1788F03118619649003CB023 /* CoreMedia.framework */,
+				1788F02E18619602003CB023 /* CoreVideo.framework */,
+				1788F02C186195F8003CB023 /* AVFoundation.framework */,
+				17C3EE341857427900D20052 /* libc++.dylib */,
+				17C3EE321857424B00D20052 /* libc.dylib */,
+				17C3EE301857424500D20052 /* libstdc++.dylib */,
+				17C3EE2B1857423200D20052 /* opencv2.framework */,
+				17ABEA46184F926D004B2412 /* libiconv.dylib */,
+				17F1B93C182A85DE00618918 /* Foundation.framework */,
+				17F1B93E182A85DE00618918 /* CoreGraphics.framework */,
+				17F1B940182A85DE00618918 /* UIKit.framework */,
+				17F1B95E182A85DE00618918 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17F1B942182A85DE00618918 /* SmartIDScanDemo */ = {
+			isa = PBXGroup;
+			children = (
+				178AD1AB18916C5900EDBE7C /* iPad */,
+				178AD1A418913C2500EDBE7C /* SmartScanner files */,
+				178AD19F1890203100EDBE7C /* img */,
+				17F1B94B182A85DE00618918 /* ICAppDelegate.h */,
+				17F1B94C182A85DE00618918 /* ICAppDelegate.m */,
+				17F1B94E182A85DE00618918 /* Main_iPhone.storyboard */,
+				17F1B954182A85DE00618918 /* ICViewController.h */,
+				17F1B955182A85DE00618918 /* ICViewController.m */,
+				17F1B957182A85DE00618918 /* Images.xcassets */,
+				17F1B943182A85DE00618918 /* Supporting Files */,
+			);
+			path = SmartIDScanDemo;
+			sourceTree = "<group>";
+		};
+		17F1B943182A85DE00618918 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17F1B944182A85DE00618918 /* SmartIDScanDemo-Info.plist */,
+				17F1B945182A85DE00618918 /* InfoPlist.strings */,
+				17F1B948182A85DE00618918 /* main.m */,
+				17F1B94A182A85DE00618918 /* SmartIDScanDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17F1B938182A85DE00618918 /* SmartIDScanDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17F1B96E182A85DE00618918 /* Build configuration list for PBXNativeTarget "SmartIDScanDemo" */;
+			buildPhases = (
+				17F1B935182A85DE00618918 /* Sources */,
+				17F1B936182A85DE00618918 /* Frameworks */,
+				17F1B937182A85DE00618918 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartIDScanDemo;
+			productName = SmartScanDemo;
+			productReference = 17F1B939182A85DE00618918 /* SmartIDScanDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17F1B931182A85DE00618918 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Institut Icare";
+			};
+			buildConfigurationList = 17F1B934182A85DE00618918 /* Build configuration list for PBXProject "SmartIDScanDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17F1B930182A85DE00618918;
+			productRefGroup = 17F1B93A182A85DE00618918 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17F1B938182A85DE00618918 /* SmartIDScanDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17F1B937182A85DE00618918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F1B958182A85DE00618918 /* Images.xcassets in Resources */,
+				178AD19B1890202B00EDBE7C /* SmartIDlab_cmjn.png in Resources */,
+				17F1B950182A85DE00618918 /* Main_iPhone.storyboard in Resources */,
+				17861FE0185897B400BD57A8 /* btn_back.png in Resources */,
+				17F1B947182A85DE00618918 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17F1B935182A85DE00618918 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F1B94D182A85DE00618918 /* ICAppDelegate.m in Sources */,
+				177CE2471833C4BE00C9DA58 /* DummyCPPEnable.mm in Sources */,
+				17F1B949182A85DE00618918 /* main.m in Sources */,
+				17F1B956182A85DE00618918 /* ICViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17F1B945182A85DE00618918 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17F1B946182A85DE00618918 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17F1B94E182A85DE00618918 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17F1B94F182A85DE00618918 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17F1B96C182A85DE00618918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17F1B96D182A85DE00618918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17F1B96F182A85DE00618918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				FRAMEWORK_SEARCH_PATHS = $SRCROOT/;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartIDScanDemo/SmartIDScanDemo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SmartIDScanDemo/SmartIDScanDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = $SRCROOT/SmartIDScanDemo;
+				PRODUCT_NAME = SmartIDScanDemo;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17F1B970182A85DE00618918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				FRAMEWORK_SEARCH_PATHS = $SRCROOT/;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartIDScanDemo/SmartIDScanDemo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SmartIDScanDemo/SmartIDScanDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = $SRCROOT/SmartIDScanDemo;
+				PRODUCT_NAME = SmartIDScanDemo;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17F1B934182A85DE00618918 /* Build configuration list for PBXProject "SmartIDScanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17F1B96C182A85DE00618918 /* Debug */,
+				17F1B96D182A85DE00618918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17F1B96E182A85DE00618918 /* Build configuration list for PBXNativeTarget "SmartIDScanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17F1B96F182A85DE00618918 /* Debug */,
+				17F1B970182A85DE00618918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17F1B931182A85DE00618918 /* Project object */;
+}
