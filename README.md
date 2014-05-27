@@ -111,10 +111,11 @@ Here are some examples :
 
 ## Links
 
-* Download our decoding libraries on :
+* Download our decoding libraries (1) on :
 http://scan.smartidlab.com
 
 * Download our demo app source code on :
 https://github.com/SmartIDLab/smartidscan-ios-demo
 
 
+(1) The demonstration decoding libraries replace some characters in the result string with the character 'X'
