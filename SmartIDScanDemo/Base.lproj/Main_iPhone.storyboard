@@ -75,7 +75,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="SmartIDlab_cmjn.png" width="989" height="300"/>
+        <image name="SmartIDlab_cmjn.png" width="250" height="103"/>
         <image name="btn_back.png" width="133" height="41"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
