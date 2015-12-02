@@ -41,7 +41,7 @@ This project is a demo iOS app to show how to integrate our decoding library in 
     CoreMedia
 
 
-4. If you own a version of SmartID Scan providing OCR features, you will also need to download an iOS version of the  [OpenCV Framework](http://opencv.org/). You can download it and drag and drop it on your project.
+4. If you own a version of SmartID Scan providing OCR features, you will also need to download an iOS version of the  [OpenCV Framework](http://opencv.org/) 2.4.9 . You can download it and drag and drop it on your project.
 5. In your project target properties, in the "Build Settings" you will also need to set the "C++ Standard Library" to value "libstdc++".
 6. If you don't have any other part of your code using C++ apis, you will also need to drop into your project the "DummyCPPEnable" (.h and .mm) class to let XCode know that part of the project will contain c++ content.
 
